@@ -1,0 +1,503 @@
+
+body{
+    background-color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: Roboto,Arial,sans-serif;
+
+}
+.princip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.main-header{
+    margin-top: 0;
+    padding-top: 10px;
+    position: relative;
+}
+.logomenu img{
+    height: 31px;
+    margin-left: 180px;
+     /* width: 100px; */
+}
+.acd ul{
+    display: flex;
+    justify-content: space-between ;
+    list-style: none;
+}
+.acd li {
+    margin-left: 20px;
+}
+.acd a{
+    text-decoration: none;
+    color: #787f8f;
+}
+.acd {
+    margin-right: 190px;
+}
+.acd a:hover{
+    color: #00ccb1;
+}
+.img-logo{
+    padding: 5px;
+    margin-left: 640px;
+}
+.titre {
+    font-size: 34px;
+    color: #00b39b;
+    margin-left: 300px;
+    margin-right: 10;
+    font-family: Work Sans, Arial, sans-serif;
+    
+}
+.divise{
+    font-size: large;
+    column-count: 2;
+    margin-left: 180px;
+    margin-right: 200px;
+    color: #747474;
+    padding-top: 0px;
+    font-family: Roboto, Arial, sans-serif;;
+    font-family: Roboto,Arial,sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+   
+    
+}
+.for-patient{
+    display: block;
+    border-radius: 10px;
+    background-color: #00ccb1;
+    color: #fff;
+    text-shadow: none;
+    width: 300px;
+    height: 330px;
+    
+}
+        .for-patient h1{
+            font-size: 25px;
+            margin-left: 25px;
+            font-family: Work Sans, Arial, sans-serif;
+            margin-top: -5px;
+        }
+        .for-patient p{
+            
+            font-size: 20px;
+            font-family: Work Sans, Arial, sans-serif;
+            margin-left: 25px;
+        }
+        .for-patient img{
+            padding-top: 30px;
+            padding-bottom: 10px;
+            margin-left: 25px;
+            
+        }
+        
+.for-medcin{
+
+    border-radius: 10px;
+    color: #fff;
+    background-color: #3d83df;
+    width: 300px;
+    height: 330px;
+
+}
+        .for-medcin h1{
+            font-size: 25px;
+            margin-left: 25px;
+            font-family: Work Sans, Arial, sans-serif;
+            margin-top: -5px;
+            
+        }
+        .for-medcin p{
+            
+            font-size: 20px;
+            font-family: Work Sans, Arial, sans-serif;
+            margin-left: 25px;
+        }
+        .for-medcin img{
+            padding-top: 30px;
+            padding-bottom: 10px;
+            margin-left: 25px;
+            
+        }
+
+.for-clinique{
+    
+    border-radius: 10px;
+    color: #fff;
+    background-color: #1b2734;
+    width: 300px;
+    height: 330px;
+}
+        .for-clinique h1{
+            font-size: 25px;
+            margin-left: 25px;
+            font-family: Work Sans, Arial, sans-serif;
+            margin-top: -5px;
+        }
+        .for-clinique p{
+            
+            font-size: 20px;
+            font-family: Work Sans, Arial, sans-serif;
+            margin-left: 25px;
+        }
+        .for-clinique img{
+            padding-top: 30px;
+            padding-bottom: 10px;
+            margin-left: 25px;
+            
+        }
+
+.div-block{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 180px;
+    margin-right: 200px;
+    padding: 0p;
+    margin-top: 70px;
+    
+}
+.select-style {
+    
+    padding: 0;
+    margin: 10px;
+    font-size: 40;
+    width: 180px;
+    overflow: hidden;
+    position: relative;
+}
+.select-style select {
+    
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.select-style:after {
+    top: 50%;
+    left: 85%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(105, 87, 87, 0);
+    border-top-color: #ffffff;
+    border-width: 5px;
+    margin-top: -2px;
+    z-index: 100;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 200px;
+    
+    
+    
+}
+.second1{
+    margin-left: 30px;
+}
+.second1 ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-content: space-between;
+    justify-content: space-between;
+    
+}
+.second1 li{
+    margin-right: 5px;
+    
+}
+.para h1{
+    font-family: Work Sans, Arial, sans-serif;
+    color: #00b39b;
+}
+.band-section{
+    background-color: #D9F6F6;    
+}
+.lpgrande{
+    padding: 40px;
+    
+}
+.lpgrande h2{
+    margin-left: 140px ;
+    font-family: Work Sans, Arial, sans-serif;
+    color: #00b39b;
+    font-size: 24px;
+}
+.lpgrande p{
+    margin-left: 140px ;
+    margin-right: 100px;
+    padding: 5px;
+    font-size: 15px;
+    color: #787f8f;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.lead13{
+    padding: 4Opx;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 220px;
+    height: 260px;
+}
+.lead13 h2{
+    text-align: center;
+    font-size: 24px;
+    color: #42B8A1;
+}
+.lead13 p{
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-size: 11px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+.lead13 img{
+    margin-left: 95px;
+    margin-top: 40px;
+}
+.rdv{
+    padding: 4Opx;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 220px;
+    height: 260px;
+}
+.rdv h2{
+    text-align: center;
+    font-size: 24px;
+    color: #42B8A1;
+}
+.rdv p{
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-size: 11px;
+    margin-left: 3Opx;
+}
+.rdv img{
+    margin-left: 95px;
+    margin-top: 40px;
+}
+.viste{
+    padding: 4Opx;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 220px;
+    height: 260px;
+}
+.viste img{
+    margin-left: 95px;
+    margin-top: 40px;
+}
+.viste h2{
+    text-align: center;
+    font-size: 24px;
+    color: #42B8A1;
+}
+.viste p{
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-size: 11px;
+    margin-left: 3Opx;
+}
+.medcin{
+    padding: 4Opx;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 220px;
+    height: 260px;
+}
+.medcin img{
+    margin-left: 95px;
+    margin-top: 40px;
+}
+
+.medcin h2{
+    text-align: center;
+    font-size: 24px;
+    color: #42B8A1;
+}
+.medcin p{
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-size: 11px;
+    margin-left: 3Opx;
+}
+.band-section{
+    display: flex;
+    justify-content: space-around;
+    
+    
+   
+    
+}
+.quatre{
+    display: flex;
+    justify-content: space-between;
+   margin-right: 200px;
+    margin-left: 100px;
+
+}
+.both1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.both2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.ameliorer h2{
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    color: #00b39b;
+    font-size: 24px;
+}
+.ameliorer p{
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px ;
+    margin-right:50px;
+    
+}
+.images img{
+    border-radius: 10px;
+}
+button{
+    display: inline-block;
+    background-color: #3D83DF;
+    border-radius: 4px;
+    border: none;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 11px;
+    width: 160px;
+    height: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    float: right;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: rgb(53, 53, 240);
+  }
+  button:hover span {
+    padding-right: 25px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+figcaption{
+    padding: 0px;
+}
+.interes{
+    text-align: center;
+    font-family: "Work Sans", Arial, sans-serif;;
+    color: #333333;
+    font-size: 15px;
+
+}
+
+.lastbut {
+
+    display: inline-block;
+    background-color: #3D83DF;
+    border-radius: 4px;
+    border: none;
+    color: #eeeeee;
+    text-align: center;
+    font-size:10 px;
+    padding: 0 px;
+    width: 300px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    float: none;
+  }
+  .lastbut span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .lastbut span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .lastbut:hover {
+    background-color: rgb(53, 53, 240);
+  }
+  .lastbut:hover span {
+    padding-right: 25px;
+  }
+  .lastbut:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  footer{
+    margin: 30px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 3Opx;
+  }
+  footer p{
+    text-align: center;
+    font-size: 13px;
+    color: #333333;;
+  }
+  footer a{
+    color: #327fc7;
+    text-decoration: none;
+    
+  }
+  footer h2{
+    font-size: 11px;
+    text-align: center;
+    color: #333333;
+  }
